@@ -13,12 +13,13 @@ export let Projects=(color,textcolor)=>{
 
             <div className="projectheadingbox">
                 <p style={{color:textcolor}}className="projectheadingtext">My Projects</p>
+                
             </div>
 
             <div className="projectgrid">
                 <Card image={projectimg[0]} title={projectname[0]} projectabout={projectbio[0]} skill1={"React"} skill2={"Css"} gitlink={githublink[0]} ></Card>
                 
-                <Card image={projectimg[1]} title={projectname[1]} projectabout={projectbio[1]} skill1={"React"} skill2={"Css"}></Card> 
+                <Card image={projectimg[1]} title={projectname[1]} projectabout={projectbio[1]} skill1={"React"} skill2={"LocalStorage"}></Card> 
                 
                 <Card image={projectimg[2]} title={projectname[2]} projectabout={projectbio[2]} skill1={"JS"} skill2={"Css"} 
                 gitlink={githublink[1]}></Card>

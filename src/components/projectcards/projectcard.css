@@ -1,6 +1,7 @@
 .card{
-    border: 2px solid rgb(0, 195, 255); 
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.8));
+    border: 2px solid #5b9bd5;
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.8)); */
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -17,8 +18,14 @@
 
 
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px yellow;
+} 
+
+
+
 .projectphoto{
-    /* border: 1px solid green; */
     height: 270px;
     width: 380px;
     display: flex;
@@ -26,7 +33,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
 }
 
 .project-photo img {
@@ -41,35 +47,41 @@
 }
 
 .cardimage:hover{
-  transform-style:preserve-3d ;
+  transform: scale(1.05);
+  transition: transform 0.9s ease;
+  border-radius: 5px;
+  box-shadow: 0px 8px 20px rgba(247, 19, 19, 0.2);
 }
 
 .carddetails{
-    /* border: 1px solid yellowgreen; */
     margin-top: 10px;
     width: 380px;
     height: 228px;
 }
 
 .projectname{
-    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     margin: 7px;
+    font-weight: bold;
 }
 
+
 .projectbio{
-    /* border: 2px solid black; */
-    font-size: larger;
+    font-size: 1rem;
     text-align: center;
     font-family: cursive;
+    color: #555;
+    margin: 10px 0;
 }
 
 .codebutton{
-    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+
 }
 
 .gitbutton{
@@ -79,51 +91,8 @@
 } 
 
 
-
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px yellow;
-  } 
-  
-  
-  
-  .project-name {
-    font-size: 1.4rem;
-    font-weight: bold;
-  }
-  
-  .project-bio {
-    font-size: 1rem;
-    color: #555;
-    margin: 10px 0;
-  }
-  
-  .skill-box {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .skill {
-    background: #007bff;
-    color: white;
-    padding: 5px 12px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    font-weight: bold;
-  }
-  
-  .code-buttons {
-    margin-top: 15px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-  
   button {
-    background: rgb(29, 26, 26);
+    background: #222; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -132,10 +101,10 @@
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
-  }
-  
-  button:hover {
-    background: darkred;
+}
+
+.button:hover {
+    background: #444;
     transform: scale(1.05);
   }
   
