@@ -1,0 +1,50 @@
+.projectsection{
+    border: 1px solid beige;
+    background-color: beige;
+    height: 99vh;
+}
+
+.projectgrid{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projectheadingbox{
+    /* border: 1px solid ; */
+    margin-top: 10px;
+    margin-bottom:20px ;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectheadingtext{
+    font-size: xx-large;
+    font-weight: 800;
+    /* font-family: cursive; */
+    font-style: oblique;
+}
+
+.photocardbox{
+    height: 100vh;
+    /* border: 2px solid rgb(0, 255, 72); */
+}
+
+.skillbox{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.skill{
+    /* border: 1px solid black; */
+    border-radius:40px;
+    min-width: 70px;
+    padding: 5px;
+    margin: 7px;
+    text-align: center;
+    background-color: rgb(71, 155, 207);
+}

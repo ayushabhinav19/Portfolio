@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* #root{
+  margin: 0px;
+  padding: 0px;
+  min-width: 100vw;
+  min-height: 98vh; */
+
+:root {
+    --text-primary: black;
+    --text-secondary: white;
+    --text-green: #22c55e; /* Tailwind green-500 */
+    --text-blue: #3b82f6;  /* Tailwind blue-500 */
+    --bg-light: white;
+    --bg-dark: #111827;   /* Tailwind gray-900 */
+    --bg-nav-light: #f3f4f6; /* Tailwind gray-100 */
+    --bg-nav-dark: #374151;  /* Tailwind gray-800 */
+    --btn-bg: #22c55e;
+    --btn-hover: #16a34a;
+}
+
+/* } */
+body {
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+}

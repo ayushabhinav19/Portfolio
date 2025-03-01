@@ -1,0 +1,141 @@
+.card{
+    border: 2px solid rgb(0, 195, 255); 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.8));
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 480px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 380px;
+    margin: auto;
+}
+
+
+
+.projectphoto{
+    /* border: 1px solid green; */
+    height: 270px;
+    width: 380px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.project-photo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cardimage{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.cardimage:hover{
+  transform-style:preserve-3d ;
+}
+
+.carddetails{
+    /* border: 1px solid yellowgreen; */
+    margin-top: 10px;
+    width: 380px;
+    height: 228px;
+}
+
+.projectname{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+
+.projectbio{
+    /* border: 2px solid black; */
+    font-size: larger;
+    text-align: center;
+    font-family: cursive;
+}
+
+.codebutton{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitbutton{
+    height: 22px;
+    margin-right: 10px;
+    background-color: red;
+} 
+
+
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px yellow;
+  } 
+  
+  
+  
+  .project-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .project-bio {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .skill {
+    background: #007bff;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .code-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  button {
+    background: rgb(29, 26, 26);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: darkred;
+    transform: scale(1.05);
+  }
+  

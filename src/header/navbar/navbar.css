@@ -1,0 +1,19 @@
+.headsection{
+    /* border: 2px solid red; */
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.sections{
+    height: 48px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    font-family: cursive;
+    border-left: 1px solid purple;
+    /* text-decoration:underline wavy red;    */
+}

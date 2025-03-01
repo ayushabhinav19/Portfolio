@@ -1,0 +1,87 @@
+.hero-div{
+    /* border: 2px solid rgb(0, 255, 110); */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    height: 93vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .hero-text {
+    text-align: center; 
+    width: 70%; 
+    margin: 0 1rem;   
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem;       
+    align-items: center;
+    padding-top:20px ;
+    font-size: 2rem; 
+    font-family: cursive;  
+    /* border: 2px solid blue; */
+}
+
+.name-highlight{
+  color: var(--text-green);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  display: inline-block; 
+  color: #4CAF50;
+  font-weight: 700;
+  font-size: 1.5em;
+  transition: color 0.3s ease-in-out; 
+}
+
+
+
+
+
+.small-bio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.4; */
+    color: #ff5100;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* border: 2px solid green; */
+  }
+
+
+
+  .dark {
+    background-color: var(--bg-dark);
+    color: var(--text-secondary);
+  }
+
+  
+  /* Button */
+  .btn-primary button {
+    margin-top: 20px;
+    appearance: none;    
+    -webkit-appearance: none;
+    border: none;           
+    outline: none;  
+    background: linear-gradient(45deg, #6c00fa, #db1334); /* Fixed here */
+    color: #fff;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 1.5rem; 
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease-out, transform 0.3s ease-out;
+}
+
+/* Hover Effect */
+.btn-primary button:hover {
+    background: linear-gradient(45deg, #db1334, #6c00fa);
+    transform: translateX(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
