@@ -3,7 +3,7 @@ import "./projects.css"
 
 export let Projects=(color,textcolor)=>{
 
-    const projectimg=["Images/netflix.png","https://backiee.com/static/wallpapers/560x315/374078.jpg","Images/Pokedexphoto1.png"]
+    const projectimg=["Images/netflix.png","https://prod.cloud.rockstargames.com/ugc/gta5mission/gAIT3vi7b0mn4tZUaTVw6g/2_0.jpg","Images/Pokedexphoto1.png"]
     const projectname=["Netflix Clone","To-Do List","Pokedex"]
     const projectbio=["A UI Clone of Netflix with React","Simple and efficient task manager","A React webpage displaying Pokemon data"]
     const githublink=["https://github.com/ayushabhinav19/Netflix-login-clone","https://github.com/ayushabhinav19/Pokedex"]
