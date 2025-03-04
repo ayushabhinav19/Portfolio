@@ -1,0 +1,86 @@
+.skillsection{ 
+    /* border: 2px solid black;*/
+    padding:10px
+}
+
+.skillheadingbox{
+    margin-top: 10px;
+    margin-bottom:40px ;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillheadingtext{
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #333;
+}
+
+.skillheadname{
+    /* border: 1px solid ; */
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom:30px ;
+}
+
+.skillgrid{
+    /* border: 1px solid #bca4a4; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 36px;
+    /* background-color: #fdd6cc;  */
+}
+
+
+/* .skillicon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  } */
+  
+
+  /* Specific hover effect for CSS icon as shown in the image */
+  /* .css-icon:hover {
+    border: 2px solid #0047FF;
+    box-shadow: 0 0 15px rgba(0, 71, 255, 0.3);
+  }
+  
+
+  .html-icon:hover {
+    border: 2px solid #00A0E4;
+    box-shadow: 0 0 15px rgba(0, 160, 228, 0.3);
+  }
+  
+  .javascript-icon:hover {
+    border: 2px solid #D2B48C;
+    box-shadow: 0 0 15px rgba(210, 180, 140, 0.3);
+  }
+  
+  .react-icon:hover {
+    border: 2px solid #7A43B6;
+    box-shadow: 0 0 15px rgba(122, 67, 182, 0.3);
+  }
+  
+  .tailwind-icon:hover {
+    border: 2px solid #00A0E4;
+    box-shadow: 0 0 15px rgba(0, 160, 228, 0.3);
+  }
+  
+  .python-icon:hover {
+    border: 2px solid #9ACD32;
+    box-shadow: 0 0 15px rgba(154, 205, 50, 0.3);
+  }
+  
+  .nodejs-icon:hover {
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+  } */

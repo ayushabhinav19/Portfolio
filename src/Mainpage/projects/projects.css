@@ -5,6 +5,8 @@
 }
 
 .projectgrid{
+    /* border: 2px solid purple; */
+    /* padding: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,13 +35,13 @@
     height: 100vh;
 }
 
-.skillbox{
+.projectskillbox{
     display: flex;
     justify-content: center;
     gap: 10px;
   }
   
-  .skill {
+.projectskill {
     background: #007bff;
     color: white;
     padding: 5px 12px;

@@ -9,10 +9,10 @@ export let Projects=(color,textcolor)=>{
     const githublink=["https://github.com/ayushabhinav19/Netflix-login-clone","https://github.com/ayushabhinav19/Pokedex"]
 
     return(
-        <section  className="projectsection" style={{backgroundColor:color}}>
+        <section  className="projectsection" id="projects" style={{backgroundColor:color}}>
 
             <div className="projectheadingbox">
-                <p style={{color:textcolor}}className="projectheadingtext">My Projects</p>
+                <p style={{color:textcolor}} className="projectheadingtext">My Projects</p>
                 
             </div>
 

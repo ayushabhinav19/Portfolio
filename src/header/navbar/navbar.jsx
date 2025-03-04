@@ -3,15 +3,19 @@ import "./navbar.css"
 export let Navbar=({ textcolor })=>{
     return(
         <div style={{color:textcolor}} className="headsection">
+
             <div className="sections">
-                Projects 🛠️ 
+                <a href="#projects"> Projects 🛠️ </a>
             </div>
+
             <div className="sections">
-                Skills 🎯
+                <a href="#skills">Skills 🎯</a>
             </div>
+
             <div className="sections">
-                Contact me ☎️
+                <a href="#projects"> Contact me ☎️</a>
             </div>
+
         </div>
     )
 }

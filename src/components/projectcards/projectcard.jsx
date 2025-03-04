@@ -14,9 +14,9 @@ export let Card=(props)=>{
                     <div className="projectbio">
                         <p>{props.projectabout}</p>
                     </div>
-                    <div className="skillbox">
-                        <div className="skill">{props.skill1}</div>
-                        <div className="skill">{props.skill2}</div>
+                    <div className="projectskillbox">
+                        <div className="projectskill">{props.skill1}</div>
+                        <div className="projectskill">{props.skill2}</div>
                     </div>
                     <div className="codebutton">
                             <a href={props.gitlink} target="_blank" rel="noopener noreferrer">

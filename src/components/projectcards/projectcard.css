@@ -38,12 +38,15 @@
 .project-photo img {
   width: 100%;
   border-radius: 10px;
+ 
 }
 
 .cardimage{
     height: 250px;
     width: 350px;
     border-radius: 30px;
+    filter: drop-shadow(6px 1px 2px #353571);
+   
 }
 
 .cardimage:hover{
@@ -88,6 +91,7 @@
     height: 22px;
     margin-right: 10px;
     background-color: red;
+    filter: drop-shadow(6px 1px 2px #353571);
 } 
 
 
@@ -101,6 +105,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
+    filter: drop-shadow(6px 1px 2px #353571);
 }
 
 .button:hover {

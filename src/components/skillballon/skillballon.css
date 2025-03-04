@@ -1,0 +1,52 @@
+.skillsection{
+    background-color: #ffd6d6;
+}
+
+.skillcircle{
+    /* border: 2px solid blue; */
+    background-color: #f0f4ff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    width: 145px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.emoji{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 50px;
+}
+
+.emojiname{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+@keyframes glowborder {
+    0%,100%{
+        box-shadow: 0 0 10px rgba(234, 11, 11, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(127, 3, 244, 0.6);
+    }
+}
+
+.skillcircle:hover{
+    border: 2px solid #ff0000;
+    transform: scale(1.05);
+    cursor: pointer;
+    animation:glowborder 1s ease-in-out infinite;
+}
