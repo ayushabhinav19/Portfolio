@@ -1,7 +1,7 @@
 import { Card } from "../../components/projectcards/projectcard"
 import "./projects.css"
 
-export let Projects=(color,textcolor)=>{
+export let Projects=({color,textcolor})=>{
 
     const projectimg=["Images/netflix.png","https://prod.cloud.rockstargames.com/ugc/gta5mission/gAIT3vi7b0mn4tZUaTVw6g/2_0.jpg","Images/Pokedexphoto1.png"]
     const projectname=["Netflix Clone","To-Do List","Pokedex"]
@@ -21,7 +21,7 @@ export let Projects=(color,textcolor)=>{
                 
                 <Card image={projectimg[1]} title={projectname[1]} projectabout={projectbio[1]} skill1={"React"} skill2={"LocalStorage"}></Card> 
                 
-                <Card image={projectimg[2]} title={projectname[2]} projectabout={projectbio[2]} skill1={"JS"} skill2={"Css"} 
+                <Card image={projectimg[2]} title={projectname[2]} projectabout={projectbio[2]} skill1={"JS"} skill2={"Css"}
                 gitlink={githublink[1]}></Card>
             </div>
 

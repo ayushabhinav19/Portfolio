@@ -1,20 +1,20 @@
 import { Skillballoon } from "../../components/skillballon/skillballon"
 import "./skills.css"
 
-export let Skills=()=>{
+export let Skills=({color,textcolor})=>{
 
-    const skillname=["HTML","CSS","JavaScript","React","Tailwind","Python","Node js","Python","GitHub","Vs Code","Figma"]
+    const skillname=["HTML","CSS","JavaScript","React","Tailwind","Python","Node js","Python","GitHub","Figma"]
     const skillcolor=["#FFE6DD"," #E6EEFF","#FFF8E1","#E6F7FF","#E6FFF4","#F0F4F8", "#F8F9F0" ,"#F0F4F8","#F8F7J9","#F2E6FF" ]
-    const skillemoji=["🌐","🎨","📜","⚛️","🌊","🐍","🟢","📝","🖌️","🐙"]
+    const skillemoji=["🌐","🎨","📜","⚛️","🌊","🐍","🟢","🖌️","🐙"]
     
     return(
-        <section id="skills" className="skillsection">
+        <section style={{background:color}} id="skills" className="skillsection">
 
             <div className="skillheadingbox">
-                <p className="skillheadingtext">My Skills</p>
+                <p style={{color:textcolor}} className="skillheadingtext">My Skills</p>
             </div>
 
-            <div className="skillheadname">
+            <div style={{color:textcolor}} className="skillheadname">
                 Frontend
             </div>
 
@@ -26,7 +26,7 @@ export let Skills=()=>{
                 <Skillballoon skillname={skillname[4]} skillemoji={skillemoji[4]} skilcolor={skillcolor[4]}></Skillballoon>
             </div>
 
-            <div className="skillheadname">
+            <div style={{color:textcolor}} className="skillheadname">
                 Backend
             </div>
 
@@ -35,14 +35,13 @@ export let Skills=()=>{
                 <Skillballoon skillname={skillname[6]} skillemoji={skillemoji[6]} skilcolor={skillcolor[6]}></Skillballoon>
             </div>
 
-            <div className="skillheadname">
+            <div style={{color:textcolor}} className="skillheadname">
                 Familiar Tools
             </div>
 
             <div className="skillgrid">
-                <Skillballoon skillname={skillname[8]} skillemoji={skillemoji[9]} skilcolor={skillcolor[7]}></Skillballoon>
+                <Skillballoon skillname={skillname[8]} skillemoji={skillemoji[8]} skilcolor={skillcolor[7]}></Skillballoon>
                 <Skillballoon skillname={skillname[9]} skillemoji={skillemoji[7]} skilcolor={skillcolor[8]}></Skillballoon>
-                <Skillballoon skillname={skillname[10]} skillemoji={skillemoji[8]} skilcolor={skillcolor[9]}></Skillballoon>
             </div>
             
         </section>

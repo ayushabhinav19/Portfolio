@@ -15,7 +15,7 @@ export let Mainpage=()=>{
             <Header setcolor={setcolor} color={color} setdark={setdark} dark={darkmode} settextcolor={settextcolor} textcolor={textcolor} ></Header>
             <Herosection color={color} settextcolor={settextcolor} textcolor={textcolor}></Herosection>
             <Projects color={color} textcolor={textcolor} settextcolor={settextcolor}></Projects>
-            <Skills></Skills>
+            <Skills color={color} textcolor={textcolor} settextcolor={settextcolor}></Skills>
             <Footer></Footer>
         </div>
     )

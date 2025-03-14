@@ -2,6 +2,6 @@ import "./button.css"
 
 export let Button=(props)=>{
     return(
-        <button className="buttoncode"><img className="gitbutton" src={props.buttonimage} onClick={onclick}></img> {props.name}</button>
+        <button className="buttoncode" onClick={onclick}><img className="gitbutton" src={props.buttonimage} ></img> {props.name}</button>
     )
 };

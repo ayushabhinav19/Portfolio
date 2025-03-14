@@ -8,9 +8,9 @@ localStorage.setItem("isDarkModeENabled","dark")
     
 let theme=()=>{
     
-    let isDarkMode = color === "black";
+    let isDarkMode = color === "#242424";
     setdark(isDarkMode);
-    setcolor(isDarkMode ? "beige" : "black");
+    setcolor(isDarkMode ? "beige" : "#242424");
     settextcolor(isDarkMode ? "purple" : "beige"); 
 }
 

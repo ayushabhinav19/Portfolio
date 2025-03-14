@@ -1,19 +1,19 @@
 import "./navbar.css"
  
-export let Navbar=({ textcolor })=>{
+export let Navbar=({textcolor })=>{
     return(
-        <div style={{color:textcolor}} className="headsection">
+        <div className="headsection">
 
-            <div className="sections">
-                <a href="#projects"> Projects 🛠️ </a>
+            <div style={{border:textcolor}} className="sections">
+                <a className="navitext" style={{color:textcolor}} href="#projects"> Projects 🛠️ </a>
             </div>
 
             <div className="sections">
-                <a href="#skills">Skills 🎯</a>
+                <a className="navitext" style={{color:textcolor}} href="#skills">Skills 🎯</a>
             </div>
 
             <div className="sections">
-                <a href="#projects"> Contact me ☎️</a>
+                <a className="navitext" style={{color:textcolor}} href="#projects"> Contact ☎️</a>
             </div>
 
         </div>

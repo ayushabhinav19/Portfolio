@@ -44,7 +44,7 @@ export let Herosection=({color,textcolor})=>{
                 </div>
 
                 <div className="btn-primary">
-                    <button>View my projects</button>
+                   <a href="#projects"> <button> View my projects</button></a>
                 </div>
             </div>
         </section>
