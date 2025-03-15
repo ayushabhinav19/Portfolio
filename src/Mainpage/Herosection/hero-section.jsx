@@ -7,7 +7,7 @@ import { Infinity } from "lucide-react"
 
 export let Herosection=({color,textcolor})=>{
 
-    const Texts=["Abhinav Shukla","A Web Developer","A Tech Enthusiast"];
+    const Texts=["Abhinav Shukla ","A Web Developer ","A Tech Enthusiast "];
     const Biotext=['Creating interactive and engaging web experiences','Building responsive web applications', 'Passionate about coding and technology'];
     
     const[index,setIndex]=useState(1)

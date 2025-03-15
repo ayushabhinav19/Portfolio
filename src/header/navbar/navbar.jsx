@@ -4,7 +4,7 @@ export let Navbar=({textcolor })=>{
     return(
         <div className="headsection">
 
-            <div style={{border:textcolor}} className="sections">
+            <div className="sections">
                 <a className="navitext" style={{color:textcolor}} href="#projects"> Projects 🛠️ </a>
             </div>
 
